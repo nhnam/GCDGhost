@@ -1,4 +1,4 @@
-An abstract thread quality of service (QOS) helper in different dispath queues.
+An abstract thread quality of service (QOS) helper in different dispatch queues.
 
 This is a light-weight library for easily submitting blocks, which takes no arguments and have no return values in different 
 quality of service thread.
