@@ -5,9 +5,9 @@ quality of service thread.
 
 Accessing this in your code is very easy. Just drag the file named Thread to your project and start using it.
 
-Example : 
+**Example ->**
 
-Main Queue :
+**Main Queue :**
 
 ```
 Thread.main {
@@ -16,7 +16,7 @@ Thread.main {
 }
 ```
 
-Asynchronous Queue :
+**Asynchronous Queue :**
 
 ```
 Thread.async("BackgroundJob") {
@@ -25,7 +25,7 @@ Thread.async("BackgroundJob") {
 }
 ```
 
-Background Queue : 
+**Background Queue :**
 
 ```
 Thread.background { 
@@ -34,7 +34,7 @@ Thread.background {
 }
 ```
 
-Utility Queue : 
+**Utility Queue :** 
 
 ```
 Thread.utility { 
@@ -42,7 +42,7 @@ Thread.utility {
 }
 ```
 
-User Interactive Queue : 
+**User Interactive Queue :** 
 
 ```
 Thread.userInteractive { 
@@ -50,7 +50,7 @@ Thread.userInteractive {
 }
 ```
 
-User Initiated Queue : 
+**User Initiated Queue :** 
 
 ```
 Thread.userInitiated { 
@@ -58,7 +58,7 @@ Thread.userInitiated {
 }
 ```
 
-Unspecified Queue : 
+**Unspecified Queue :** 
 
 ```
 Thread.unspecified { 
